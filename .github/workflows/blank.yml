@@ -9,12 +9,14 @@ jobs:
         echo "A Build step"
   test: 
     runs-on: ubuntu-latest 
+    needs: build
     steps: 
     - name: Test step 
       run:
         echo "Running..."
   Deploy: 
-      runs-on: ubuntu-latest 
+      runs-on: ubuntu-latest
+      needs: test
       steps: 
       - name: Deploy step 
         run:
