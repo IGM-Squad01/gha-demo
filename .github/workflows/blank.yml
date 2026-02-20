@@ -12,4 +12,4 @@ jobs:
     steps: 
     - name: Practice step 
       run:
-        echo "A Practice step done using gitbash"
+        echo "Hello, ${{vars.MY_Name}}"
