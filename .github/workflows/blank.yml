@@ -1,13 +1,7 @@
 name: hello world
-on: 
-  push:
-    branches: 
-      - main
-  pull:
-    branches: 
-      - main
+on: push
 jobs: 
-  push-practice-using-gitbash: 
+  build: 
     runs-on: ubuntu-latest 
     steps: 
     - name: Practice step 
