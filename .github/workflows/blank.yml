@@ -3,7 +3,9 @@ on:
   push:
     branches: 
       - main
-  pull:
+      - develop
+      - 'release/**'
+  pull_request:
     branches: 
       - main
 jobs: 
