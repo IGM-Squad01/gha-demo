@@ -1,9 +1,9 @@
 name: hello world
 on: push
 jobs: 
-  build: 
+  push-practice-using-gitbash: 
     runs-on: ubuntu-latest 
     steps: 
-    - name: Build step 
+    - name: Practice step 
       run:
-        echo "A Build step"
+        echo "A Practice step done using gitbash"
