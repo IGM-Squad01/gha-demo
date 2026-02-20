@@ -1,5 +1,11 @@
 name: hello world
-on: push
+on: 
+  push:
+    branches: 
+      - main
+  pull:
+    branches: 
+      - main
 jobs: 
   push-practice-using-gitbash: 
     runs-on: ubuntu-latest 
