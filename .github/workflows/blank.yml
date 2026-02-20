@@ -6,4 +6,4 @@ jobs:
     steps: 
     - name: Practice step 
       run:
-        echo "Hello, ${{vars.MY_Name}}"
+        echo "Hello, ${{secrets.Docker_PWD}}"
